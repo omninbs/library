@@ -1,2 +1,3 @@
-# library
-一个有关 NBS 的中文知识库
+# OmniNBS Library
+
+一个有关 NBS 的中文知识库，目前还在施工中...
