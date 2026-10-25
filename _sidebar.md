@@ -1,1 +1,3 @@
-- [Home Page](README.md)
+- [主页](/)
+- [乐谱的形式约简](formal_reduction.md)
+  - [平移等价类 (TEC)](formal_reduction/translation_equivalence_class.md)
