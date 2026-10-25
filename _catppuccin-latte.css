@@ -1,0 +1,74 @@
+/* Catppuccin Latte (accent: mauve) for docsify v5
+ * Palette: https://catppuccin.com/palette
+ * To switch accent, change --theme-color to another Catppuccin color.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Base */
+  --color-bg: #eff1f5;    /* base */
+  --color-text: #4c4f69;  /* text */
+  --theme-color: #8839ef; /* mauve */
+
+  /* Typography */
+  --modular-scale: 1.1;
+
+  /* Headings and emphasis */
+  --strong-color: var(--color-text);
+
+  /* Links */
+  --link-color: var(--theme-color);
+
+  /* Code */
+  --code-bg: #e6e9ef; /* mantle */
+  --codeblock-bg: var(--code-bg);
+  --codeblock-comment: #9ca0b0;
+  --codeblock-function: #1e66f5;
+  --codeblock-important: #d20f39;
+  --codeblock-keyword: #8839ef;
+  --codeblock-operator: #04a5e5;
+  --codeblock-property: #fe640b;
+  --codeblock-punctuation: #7c7f93;
+  --codeblock-selector: #40a02b;
+  --codeblock-tag: #d20f39;
+  --codeblock-variable: #df8e1d;
+
+  /* Inline elements */
+  --mark-bg: #df8e1d;
+  --mark-color: #4c4f69;
+  --button-color: #eff1f5;
+  --form-element-bg: #e6e9ef;
+  --form-element-border-color: #bcc0cc;
+
+  /* Sidebar */
+  --sidebar-bg: #e6e9ef;
+  --sidebar-border-color: #ccd0da;
+  --sidebar-link-color: #5c5f77;
+  --sidebar-name-color: var(--color-text);
+  --sidebar-toggle-bg: #ccd0da;
+  --sidebar-toggle-color: #6c6f85;
+
+  /* Callouts */
+  --callout-bg: #e6e9ef;
+}
+
+.markdown-section .callout.caution {
+  --callout-bg: color-mix(in srgb, #d20f39 12%, #eff1f5);
+  --callout-border-color: #d20f39;
+}
+
+.markdown-section .callout.important {
+  --callout-bg: color-mix(in srgb, #8839ef 12%, #eff1f5);
+  --callout-border-color: #8839ef;
+}
+
+.markdown-section .callout.tip {
+  --callout-bg: color-mix(in srgb, #40a02b 12%, #eff1f5);
+  --callout-border-color: #40a02b;
+}
+
+.markdown-section .callout.warning {
+  --callout-bg: color-mix(in srgb, #df8e1d 12%, #eff1f5);
+  --callout-border-color: #df8e1d;
+}
