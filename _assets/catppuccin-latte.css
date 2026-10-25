@@ -67,9 +67,9 @@
   --sidebar-link-color-active: #40a02b;
   --sidebar-name-color: #40a02b;
   --sidebar-group-title-color: #6c6f85;
-  --sidebar-toggle-bg: #ccd0da;
+  --sidebar-toggle-bg: transparent;
   --sidebar-toggle-bg-hover: #40a02b;
-  --sidebar-toggle-color: #6c6f85;
+  --sidebar-toggle-color: #ccd0da;
   --sidebar-toggle-color-hover: #eff1f5;
 
   /* Callouts */
