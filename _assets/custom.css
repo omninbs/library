@@ -1,0 +1,9 @@
+/* Content images: cap tall images and center them in the text column. */
+.markdown-section img {
+  max-height: 30vh;
+  opacity: 0.9;
+}
+
+.markdown-section p:has(> img) {
+  text-align: center;
+}

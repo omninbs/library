@@ -1,3 +1,5 @@
 - [主页](/)
 - [乐谱的形式约简](formal_reduction.md)
-  - [平移等价类 (TEC)](formal_reduction/translation_equivalence_class.md)
+  - [事件与事件流](formal_reduction/event_stream.md)
+  - [重复的规律](formal_reduction/repetition.md)
+  - [平移等价类 (TEC)](formal_reduction/trans_eq_class.md)
