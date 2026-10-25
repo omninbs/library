@@ -1,6 +1,9 @@
-/* Catppuccin Latte (accent: mauve) for docsify v5
+/* Catppuccin Latte for docsify v5
+ * Colour variables only — no layout or decoration overrides.
  * Palette: https://catppuccin.com/palette
- * To switch accent, change --theme-color to another Catppuccin color.
+ * Roles: mauve = brand, green = quotes/sidebar, blue = links,
+ * red = inline code, yellow = highlight, lavender = link hover.
+ * To switch the brand accent, change --theme-color only.
  */
 
 :root {
@@ -10,6 +13,7 @@
   --color-bg: #eff1f5;    /* base */
   --color-text: #4c4f69;  /* text */
   --theme-color: #8839ef; /* mauve */
+  --border-color: #ccd0da; /* surface0 */
 
   /* Typography */
   --modular-scale: 1.1;
@@ -18,11 +22,16 @@
   --strong-color: var(--color-text);
 
   /* Links */
-  --link-color: var(--theme-color);
+  --link-color: #1e66f5;   /* blue */
+  --link-color-hover: #7287fd; /* lavender */
+  --link-underline-color: color-mix(in srgb, var(--link-color) 35%, transparent);
+  --link-underline-color-hover: var(--link-color-hover);
 
   /* Code */
-  --code-bg: #e6e9ef; /* mantle */
+  --code-bg: #e6e9ef;   /* mantle */
+  --code-color: #d20f39; /* red */
   --codeblock-bg: var(--code-bg);
+  --codeblock-color: var(--color-text);
   --codeblock-comment: #9ca0b0;
   --codeblock-function: #1e66f5;
   --codeblock-important: #d20f39;
@@ -34,20 +43,34 @@
   --codeblock-tag: #d20f39;
   --codeblock-variable: #df8e1d;
 
+  /* Blockquotes */
+  --blockquote-bg: color-mix(in srgb, #40a02b 7%, #eff1f5);
+  --blockquote-border-color: #40a02b;
+  --blockquote-color: #5c5f77;
+
+  /* Tables */
+  --table-row-alt-bg: #e6e9ef;
+
   /* Inline elements */
-  --mark-bg: #df8e1d;
+  --mark-bg: color-mix(in srgb, #df8e1d 32%, transparent);
   --mark-color: #4c4f69;
   --button-color: #eff1f5;
   --form-element-bg: #e6e9ef;
   --form-element-border-color: #bcc0cc;
+  --kbd-bg: #e6e9ef;
+  --kbd-color: #6c6f85;
 
   /* Sidebar */
   --sidebar-bg: #e6e9ef;
-  --sidebar-border-color: #ccd0da;
+  --sidebar-border-color: #dce0e8;
   --sidebar-link-color: #5c5f77;
-  --sidebar-name-color: var(--color-text);
+  --sidebar-link-color-active: #40a02b;
+  --sidebar-name-color: #40a02b;
+  --sidebar-group-title-color: #6c6f85;
   --sidebar-toggle-bg: #ccd0da;
+  --sidebar-toggle-bg-hover: #40a02b;
   --sidebar-toggle-color: #6c6f85;
+  --sidebar-toggle-color-hover: #eff1f5;
 
   /* Callouts */
   --callout-bg: #e6e9ef;
