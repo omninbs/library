@@ -33,4 +33,5 @@ if __name__ == "__main__":
 
     generate()
     if args.command == "serve":
+        print(f"serving at http://127.0.0.1:{args.port}/", flush=True)
         ThreadingHTTPServer(("127.0.0.1", args.port), Preview).serve_forever()

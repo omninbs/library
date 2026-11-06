@@ -1,3 +1,8 @@
+/* Typography: modular scale is a site-wide choice, not part of a palette. */
+:root {
+  --modular-scale: 1.05737126344;
+}
+
 /* Content images: cap tall images and center them in the text column. */
 .markdown-section img {
   max-height: 30vh;
