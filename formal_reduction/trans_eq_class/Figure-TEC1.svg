@@ -7,7 +7,7 @@
    width="999"
    height="666"
    viewBox="0 0 999 666"
-   sodipodi:docname="Figure.svg"
+   sodipodi:docname="Figure-TEC1.svg"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    inkscape:export-filename="Figure.svg"
    inkscape:export-xdpi="96"
@@ -67,14 +67,14 @@
      inkscape:deskcolor="#d1d1d1"
      showborder="true"
      inkscape:zoom="1.698755"
-     inkscape:cx="716.99567"
+     inkscape:cx="716.99568"
      inkscape:cy="479.17445"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#eff1f5ff" />
   <g
      inkscape:groupmode="layer"
@@ -102,7 +102,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;opacity:1;fill:none;stroke:#7c7f93;stroke-width:4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-       d="m 65.449804,611.27023 844.147606,2.99905"
+       d="M 65.449804,611.27023 H 909.59741"
        id="path2"
        sodipodi:nodetypes="cc" />
     <path
